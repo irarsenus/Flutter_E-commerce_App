@@ -68,6 +68,6 @@ static const double imageThumbSize=80.0;
     static double loadingIndicatorSize=36;
     // grid view spacing
 
-    static const double gridViewSpacing=
+    static const double gridViewSpacing= 5;
 
 }

@@ -7,7 +7,7 @@ import '../main.dart';
 void main() {
 
 
-  TColors.light
+  TColors.light;
   runApp(const App());
 }
 

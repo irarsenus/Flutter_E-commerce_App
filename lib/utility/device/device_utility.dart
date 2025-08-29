@@ -68,7 +68,7 @@ class TDeviceUtils {
   }
 
   static double getKeyBoardHeight(Get) {
-
+ return  kToolbarHeight;
 
   }
 

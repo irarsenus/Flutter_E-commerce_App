@@ -94,7 +94,8 @@ static Size screenSize(){
   static double screenWidth(){
     return MediaQuery.of(Get.context!).size.height;
   }
-  static String  getFormattedDAte(DateTime date  ,String format{'dd MMM YYY'}){
+  static String  getFormattedDAte(DateTime date  ,{String format='dd MMM YYY'})
+  {
 return DateFormat(format).format(date);
   }
 static List<T> removeDuplicates<T>(List<T> list){

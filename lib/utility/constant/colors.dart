@@ -6,7 +6,7 @@ class TColors{
   static const Color primary= Color(0xff4b68ff);
   static const Color secondary= Color(0xffffe24b);
   static const Color tertiary= Color(0xffb0c7ff);
-  static const linear= LinearGradient(colors: );
+  static const linear= LinearGradient(colors:[Colors.cyan] );
 
   //text colors
 
