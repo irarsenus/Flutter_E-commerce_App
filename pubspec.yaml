@@ -17,6 +17,7 @@ dependencies:
   get: ^4.6.6
   get_storage: ^2.1.1
   logger: ^2.0.2+1
+  native_splash_screen: ^2.1.0
 
 
 #------ icons --------#
@@ -30,6 +31,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  flutter_native_splash: ^2.4.0
 
 
 flutter:
