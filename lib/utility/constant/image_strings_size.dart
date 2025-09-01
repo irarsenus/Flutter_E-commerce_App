@@ -1,4 +1,5 @@
 class TImages{
+  TImages._();
   // app logos
 static const String darkAppLogo = "";
 static const String lightAppLogo = "";
@@ -8,7 +9,7 @@ static const String facebook = "";
 
 //-- onBoarding images
   static const String  onBoardingImage1 = "Assets/images/on_boarding_images/onboarding.gif";
-  static const String  onBoardingImage1 = ;
-  static const String  onBoardingImage1 = ;
+  static const String  onBoardingImage2 = "Assets/images/on_boarding_images/onboarding.gif";
+  static const String  onBoardingImage3 = "Assets/images/on_boarding_images/onboarding.gif";
 
 }
