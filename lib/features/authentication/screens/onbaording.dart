@@ -6,6 +6,15 @@ import 'package:flutter/material.dart';
       Widget build(BuildContext context){
 
         return const Scaffold(
+          body: Stack(
+            children: [
+              Column(
+                children: [
+                  Image(image: AssetImage(TImages.))
+                ],
+              )
+            ],
+          ),
 
         );
 
