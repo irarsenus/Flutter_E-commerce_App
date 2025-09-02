@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_gura1/utility/constant/image_strings_size.dart';
+import 'package:test_gura1/utility/constant/sizes.dart';
 import 'package:test_gura1/utility/constant/text_strings.dart';
 import 'package:test_gura1/utility/helpers/helper_functions.dart';
     class OnBoardingScreen extends StatelessWidget{
@@ -13,8 +14,8 @@ import 'package:test_gura1/utility/helpers/helper_functions.dart';
               Column(
                 children: [
                   Image(
-                    width: THelperFunctions.screenWidth() * 0.8,
                     height: THelperFunctions.screenHeight() * 0.6,
+                    width: THelperFunctions.screenWidth() * 0.8,
                     image: const  AssetImage(TImages.onBoardingImage1),
                   ),
                   Text(
