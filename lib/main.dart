@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_gura1/features/authentication/screens/onbaording.dart';
 import 'package:test_gura1/utility/theme/Custom_theme/theme.dart';
-import 'package:test_gura1/features/authentication/screens/onboarding.dart';
+import 'package:test_gura1/features/authentication/screens/-1.dart';
 
 
 void main() {

@@ -40,7 +40,7 @@ flutter:
 assets:
   -Assets/fonts
   -Assets/Icons/brands
-  -Assets/images/on_boarding_images 
+  - Assets/images/on_boarding_images/onboarding.gif
   -Assets/Logos
 
 
