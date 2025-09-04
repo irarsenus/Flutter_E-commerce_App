@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:test_gura1/features/authentication/screens/onbaording.dart';
 import 'package:test_gura1/utility/theme/Custom_theme/theme.dart';
+import 'package:test_gura1/features/authentication/screens/onboarding.dart';
 
 
 void main() {
@@ -17,8 +19,9 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-     themeMode: ThemeMode.system ,
+        themeMode: ThemeMode.system ,
   theme: TAppTheme.lightTheme,
+      home:const OnBoardingScreen(),
 
       darkTheme: TAppTheme.darkTheme
     );
