@@ -29,6 +29,13 @@ const SizedBox(height: TSizes.spaceBtwItems),
                     style: Theme.of(context).textTheme.headlineMedium,
                     textAlign: TextAlign.center,
                   ),
+               const SizedBox(height: TSizes.spaceBtwItems),
+                  Text(
+                    TTexts.onBoardingSubTitle1,
+                    style: Theme.of(context).textTheme.headlineMedium,
+                    textAlign: TextAlign.center,
+
+                  )
                 ],
               )
             ],
